@@ -1,0 +1,24 @@
+.checkOut{
+    display: flex;
+    padding: 15px;
+    background-color: white;
+    height: max-content;
+    justify-content: center;
+}
+.leftSide{
+    margin-right: 2%;
+}
+.basketTitle{
+    padding: 1%;
+    border-bottom: 1px solid lightgrey;
+}
+.emptyBasket{
+    width: 100%;
+    color: rgb(156, 156, 156);
+    justify-content: center;
+}
+.emptyBasketDescription{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

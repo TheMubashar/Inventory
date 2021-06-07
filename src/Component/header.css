@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Varela+Round|Raleway+Dots|Quantico|Audiowide|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    align-items: space-around;
+    position: sticky;
+    background-color: #131921;
+    color: white;
+    top:0;
+    padding: 5px;
+    z-index: 100;
+}
+.BrandName{
+    font-family: 'Audiowide';
+    margin: 0px 40px;
+    color: white;
+}
+.header>div{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.searchInput{
+    width: 100%;    
+    height: 65%;
+    border-radius:5px 0px 0px 5px;
+}
+.searchIcon{
+    background-color: #c58430;
+    padding: .5%;
+    border-radius: 0px 5px 5px 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.lineOne{
+    font-size: x-small;
+}
+.lineTwo{
+    font-size: large;
+    font-weight: 500;
+}
+.basket{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/* Mobile */
+.dehazeIcon{
+    margin: 0% 80%;
+}
+.mobileMenu{
+    display: flex;
+    flex-direction: column;
+    background-color: #131921;
+    color: lightgray;
+    align-items: center;
+    padding-bottom: 10px;
+    position: sticky;
+    top :20px;
+    z-index: 99;
+
+}
+.mobileSignInLink{
+    width: 30%;
+    height: 25px;
+}
+.mobileSignInBtn{
+    color: white;
+    background-color:transparent;
+    width: 100%;
+    height: 25px;
+    border-radius: 5%;
+    border: 1px solid;
+}
+.mobileBasket{
+    color: lightgray;
+}

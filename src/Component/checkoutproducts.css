@@ -1,0 +1,16 @@
+.cart{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+.productImg{
+    width: 250px;
+    margin-top: 2%;
+}
+.removeBtn{
+    position: relative;
+    top: 75px;
+    background-color: #f0c14b;
+    align-items: center;
+    color: black;
+    border: 1px solid black;
+}

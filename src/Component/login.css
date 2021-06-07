@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+.nameLogo{
+    color: #131921;
+    display: flex;
+    justify-content: center;
+    font-family: "Audiowide";
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    border: 1px solid lightgrey;
+    margin: 0 auto;
+    padding: 1%;
+}
+.email, .password{
+    width: 100%;
+    height: 25px;
+    border: 1px solid;
+}
+.signInBtn,.createAccountBtn{
+    padding: 2%;
+    margin-bottom: 5%;
+    border: 1px solid;
+    align-items: center;
+}
+.signInBtn{
+    background-color: #f0c14b;
+}

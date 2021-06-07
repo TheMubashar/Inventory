@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Bitter|Asap|Varela+Round|Raleway+Dots|Quantico|Audiowide|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
+.ads{
+    color: black;
+    min-width: 200px;
+    max-width: 100%;
+    max-height: 400px;
+    align-items: center;
+    font-family: "Asap";
+    z-index: 1;
+}
+.adproduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 310px;
+}
+.sale{
+    color: rgba(255, 60, 0, 0.808);
+}
+.adproductImg{
+    width: 250px;
+    max-height: 180px;
+    min-height: 170px;
+    object-fit: contain;
+    margin-bottom: 2%;
+}
+.AdProductTitle{
+    font-size: smaller;
+}
+.adstar{
+    color: rgb(255, 238, 0);
+}
+.adbasketBtn{
+    background-color: #f0c14b;
+    border: 1px solid;
+    align-items: center;
+    margin-bottom: 1%;
+    color: black;
+}
+
+/* Mobile and Tab view */
+@media(min-width:790px){
+    .adproduct{
+        min-width: 50px;
+        max-width: 100%;
+        max-height: 300px;
+        margin: 0%;
+        padding: 1%;
+    }
+}

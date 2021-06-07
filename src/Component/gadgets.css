@@ -1,0 +1,16 @@
+.gadgets{
+    display: flex;
+    flex-direction: column;
+}
+.Ad{
+    padding: 1%;
+    margin: 0 auto;
+}
+.Subcategories{
+    position: sticky;
+    top: 50px;
+    z-index: 1000;
+}
+.Subcategories>button{
+    cursor: pointer;
+}
